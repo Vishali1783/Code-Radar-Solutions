@@ -5,5 +5,4 @@ int main()
     printf("You entered: %.2f",a);
     float b = 0.0;
     printf("You entered: %.2f",b);
-    return 0;
     }
