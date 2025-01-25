@@ -6,7 +6,7 @@ int main()
     scanf("%f",&a);
     printf("You entered: %.2f",a);
     printf("enter b:");
-    scanf("%f",&b)
+    scanf("%f",&b);
     printf("You entered: %.2f",b);
     return 0;
     }
