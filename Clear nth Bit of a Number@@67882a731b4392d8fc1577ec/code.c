@@ -5,6 +5,6 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     newbit = a & ((1<<b));
-    printf("%d",&newbit);
+    printf("%d",newbit);
     return 0;
 }
