@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define BITS 4   * 8
+#define BITS 32
 int main()
 {
     int a,msb;
