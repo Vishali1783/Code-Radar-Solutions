@@ -5,6 +5,6 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     bitstatus = (a>>b) & 1;
-    printf("%d",&bitstatus);
+    printf("%d",bitstatus);
     return 0;
 }
