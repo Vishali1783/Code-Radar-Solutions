@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     int n,i;
-    int count =0;
+    int count=0;
     scanf("%d",&n);
     if(n<=1){
         printf("Not Prime");
@@ -12,12 +12,10 @@ int main() {
                 count++;
             }
         }
-        if(count>2){
+        if(count>2)
             printf("Not Prime");
-        }
-        else{
+        else
             printf("Prime");
-        }
     }
 return 0;  
 }
