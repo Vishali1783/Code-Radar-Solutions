@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    if((a>0) && (a<101)){
+    if((a>=1) && (a<=100)){
         printf("In Range");
     }
     else{
