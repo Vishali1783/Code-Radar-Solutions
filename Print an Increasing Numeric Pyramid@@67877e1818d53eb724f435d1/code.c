@@ -1,17 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,rows,k=0;
+    int i,j,rows,space;
     scanf("%d",&rows);
-    for(i=1;i<=rows;++i,k=0){
-        for(j=1;j<=rows - i;++j){
+    space = rows -1;
+    for(i=1;i<=rows;++i){
+        for(j=1;j<=space;++j){
            printf(" ");
         }
-        while(k!=2*i - 1){
-            printf("%d",j);
-            ++k;
-        }
-        printf("\n");
+       space--;
+       for(j=1;j<=i;++j){
+        printf("%d",j);
+       }
+       printf("\n");
     }
     return 0;
 }
