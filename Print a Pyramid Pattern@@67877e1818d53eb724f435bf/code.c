@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n;
-    scanf("%d",&n);
-    for(i=1;i<=n;++i){
-        for(j=1;j<=i;++j){
-            printf("*");
+    int i,space,rows,k=0;
+    scanf("%d",&rows);
+    for(i=1;i<=rows;++i;k=0){
+        for(space=1;space<=rows-i;++j){
+            printf(" ");
         }
-        printf("\n");
+    }
+    while(k! = 2*i -1){
+        printf("* ");
     }
     return 0;
 }
